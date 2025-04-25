@@ -33,8 +33,8 @@ public class FrogSimulation
 		/* to be implemented in part (b) */ 
 		double totalpass = 0.0; 
 		for (int i = 0; i<num; i++){
-			if (this.simulate == true){
-				totalpass = totalpass+1; 
+			if (this.simulate() == true){
+				totalpass++; 
 			}
 		}
 		return totalpass/num;
