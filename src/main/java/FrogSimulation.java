@@ -33,7 +33,7 @@ public class FrogSimulation
 		/* to be implemented in part (b) */ 
 		double totalpass = 0.0; 
 		for (int i = 0; i<num; i++){
-			if (this.siulate == true){
+			if (this.simulate == true){
 				totalpass = totalpass+1; 
 			}
 		}
