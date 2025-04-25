@@ -17,7 +17,7 @@ public class FrogSimulation
 	{ 
 		/* to be implemented in part (a) */
 		int totaldist = 0; 
-		for (int i = 0; i< maxHops; i++;){
+		for (int i = 0; i< maxHops; i++){
 			totaldist = totaldist + hopDistance(); 
 		}
 		if (totaldist >= goalDistance){
