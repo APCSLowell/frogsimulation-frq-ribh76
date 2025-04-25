@@ -32,6 +32,18 @@ public class FrogSimulation
 
     return false;
 	}
+
+	public double runSimulations(int num) {
+    int countSuccess = 0;
+
+    for (int i = 0; i < num; i++) {
+        if (simulate()) {
+            countSuccess++;
+        }
+    }
+
+    return (double) countSuccess / num;
+}
 	
 	
 	//ignore the code below this line
